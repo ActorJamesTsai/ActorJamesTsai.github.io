@@ -127,6 +127,12 @@
 .icon-link:before {
   content: "\f0c1";
 }
+.icon-search:before {
+  content: "\f002";
+}
+.icon-coffee:before {
+  content: "\f0f4";
+}
 *,
 *::before,
 *::after {
@@ -1208,6 +1214,10 @@ a.waves-effect .waves-ripple {
 }
 .post-share li:first-child {
   margin-left: 0;
+}
+.post-toc {
+  margin-bottom: 24px;
+  padding: 8px 12px;
 }
 .post-widget {
   float: right;
