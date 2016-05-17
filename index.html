@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>James&#39;s blog | I Am A Actor</title>
+  <title>James&#39;s blog | I Am An Actor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <meta name="keywords" content="undefined">
@@ -46,7 +46,7 @@
         <li class="waves-block active">
           <a href="/"  >
             <i class="icon icon-lg icon-home"></i>
-            主页
+            Home
           </a>
         </li>
     
@@ -79,7 +79,7 @@
         </li>
     
         <li class="waves-block">
-          <a href="/" target="_blank" >
+          <a href="https://twitter.com/JiaDuStudent" target="_blank" >
             <i class="icon icon-lg icon-twitter"></i>
             Twitter
           </a>
@@ -115,13 +115,97 @@
 <header class="content-header">
   <div class="container">
     <h1 class="author">James&#39;s blog</h1>
-    <h5 class="subtitle">I Am A Actor</h5>
+    <h5 class="subtitle">I Am An Actor</h5>
   </div>
 </header>
 
     <div class="container body-wrap">
       
   <ul class="post-list">
+  
+    <li class="post-list-item">
+  <article id="post-Resin配置优化" class="article article-type-post" itemprop="blogPost">
+    
+      
+
+
+  
+    <h3 class="post-title" itemprop="name">
+      <a class="post-title-link" href="/2016/05/15/Resin配置优化/">Resin配置优化</a>
+    </h3>
+  
+
+
+
+      <div class="post-meat flex-row">
+        <div class="flex-col">
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Resin/">Resin</a></li></ul>
+</div>
+        <time datetime="2016-05-15T13:17:30.000Z" itemprop="datePublished" class="post-tiem">
+  2016-05-15
+</time>
+      </div>
+      <div class="post-content" id="post-content" itemprop="postContent" >
+        
+          <h1 id="Resin"><a href="#Resin" class="headerlink" title="Resin"></a><a href="http://caucho.com/"><strong>Resin</strong></a></h1><h2 id="安装及自启动设置"><a href="#安装及自启动设置" class="headerlink" title="安装及自启动设置"></a>安装及自启动设置</h2><p>创建开机自动启动</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cp contrib/init.resin /etc/rc.d/init.d/resin</span><br><span class="line">vi /etc/rc.d/init.d/resin</span><br></pre></td></tr></table></figure>
+<p>设置正确的路径</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">JAVA_HOME=/usr/local/jdk1.6.0_13</span><br><span class="line">RESIN_HOME=/usr/local/resin-3.1.8</span><br></pre></td></tr></table></figure>
+        
+      </div>
+      <div class="post-footer clearfix">
+        <a href="/2016/05/15/Resin配置优化/" class="post-more waves-button-light">MORE</a>
+      </div>
+    
+
+  </article>
+
+
+</li>
+  
+    <li class="post-list-item">
+  <article id="post-Liunx服务器下文件的编码问题" class="article article-type-post" itemprop="blogPost">
+    
+      
+
+
+  
+    <h3 class="post-title" itemprop="name">
+      <a class="post-title-link" href="/2016/05/15/Liunx服务器下文件的编码问题/">BOM</a>
+    </h3>
+  
+
+
+
+      <div class="post-meat flex-row">
+        <div class="flex-col">
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Liunx/">Liunx</a></li></ul>
+</div>
+        <time datetime="2016-05-15T13:01:30.000Z" itemprop="datePublished" class="post-tiem">
+  2016-05-15
+</time>
+      </div>
+      <div class="post-content" id="post-content" itemprop="postContent" >
+        
+          <h2 id="Liunx服务器下文件的编码问题"><a href="#Liunx服务器下文件的编码问题" class="headerlink" title="Liunx服务器下文件的编码问题"></a>Liunx服务器下文件的编码问题</h2><p>项目在本地电脑（windows系统）上运行正常，但是部署到服务器后运行打开页面出现500错误，后台保存内容忘记截图。上网查资料才知道是BOM的问题</p>
+<ul>
+<li><p><strong>何谓BOM？</strong></p>
+<blockquote>
+<p>“EF BB BF” 这三个字节就叫BOM，BOM的全称叫做”Byte Order Mard”.在utf－8文件中常用BOM来表明这个文件是UTF-8文件,而BOM的本意实在utf16中用来表示高低字节序列的。</p>
+</blockquote>
+</li>
+</ul>
+        
+      </div>
+      <div class="post-footer clearfix">
+        <a href="/2016/05/15/Liunx服务器下文件的编码问题/" class="post-more waves-button-light">MORE</a>
+      </div>
+    
+
+  </article>
+
+
+</li>
   
     <li class="post-list-item">
   <article id="post-hello-world" class="article article-type-post" itemprop="blogPost">
